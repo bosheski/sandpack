@@ -16,13 +16,13 @@ export const REACT_TYPESCRIPT_TEMPLATE = {
   }
 }`,
     },
-    "/App.tsx": {
+    "/src/App.tsx": {
       code: `export default function App(): JSX.Element {
   return <h1>Hello World</h1>
 }
 `,
     },
-    "/index.tsx": {
+    "/src/index.tsx": {
       code: `import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
@@ -36,7 +36,7 @@ root.render(
   </StrictMode>
 );`,
     },
-    "/styles.css": {
+    "/src/styles.css": {
       code: `body {
   font-family: sans-serif;
   -webkit-font-smoothing: auto;
@@ -78,10 +78,10 @@ h1 {
           "@types/react-dom": "^18.0.0",
           typescript: "^4.0.0",
         },
-        main: "/index.tsx",
+        main: "/src/index.tsx",
       }),
     },
   },
-  main: "/App.tsx",
+  main: "/src/App.tsx",
   environment: "create-react-app",
 };
