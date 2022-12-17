@@ -1,7 +1,7 @@
 {
-  "name": "sandpack",
-  "version": "1.0.0",
-  "private": true,
+  "name": "@bosheski/sandpack",
+  "version": "1.0.1",
+
   "workspaces": [
     "sandpack-client",
     "sandpack-react",
@@ -31,9 +31,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codesandbox/sandpack"
+    "url": "https://github.com/bosheski/sandpack"
   },
-  "author": "CodeSandbox",
+  "author": "Bosheski",
   "license": "Apache-2.0",
   "devDependencies": {
     "@babel/preset-env": "^7.16.5",
